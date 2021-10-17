@@ -13,7 +13,7 @@ spec:
      metadata:
       name: mydaemonsetpod
       labels:
-        app: test
+        app: nginx
      spec:
        containers:
         - name: mydaemonsetcont
