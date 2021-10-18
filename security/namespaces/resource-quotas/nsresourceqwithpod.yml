@@ -25,4 +25,4 @@ spec:
     image: nginx
     resources:
       limits:
-        requests.memory: 150Mi
+        memory: 150Mi
