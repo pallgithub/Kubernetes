@@ -8,7 +8,7 @@ spec:
      image: tomcat:8.5
      volumeMounts:
       - name: pv
-        mountPath: "/usr/local/tomcat/logs"
+        mountPath: "/mnt/readonly"
   volumes:
    - name: pv
      persistentVolumeClaim:
